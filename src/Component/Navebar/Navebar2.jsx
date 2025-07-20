@@ -28,7 +28,7 @@ const Navebar2 = () => {
      <div className=''>
                 <div className=' flex justify-between'>
 
-                    <div className='px-5 py-10'>
+                    <div className='px-6 py-10'>
                         <div>
                             <div className='flex flex-col items-center justify-center py-5'>
                                 <Image className='w-[100px] h-[100px] rounded-[100%] px-1 py-1 bg-gray-500' src={profile} alt='profile' />
