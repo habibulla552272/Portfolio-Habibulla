@@ -10,6 +10,7 @@ import { IoMdMail } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { RxCross1 } from "react-icons/rx";
 
 
 import Image from 'next/image';
@@ -100,9 +101,10 @@ const Navebar1 = () => {
 
 
                     <div onClick={showMenuBar} className='bg-cyan-400 px-2 py-2 rounded-[30%] w-12 h-12 flex  justify-center items-center fixed top-10 right-4 text-white'>
-
-                        <AlignJustify />
+                        {menuBar ? <RxCross1 />: <AlignJustify /> }
+                        
                     </div>
+                    
 
                 </div>
 

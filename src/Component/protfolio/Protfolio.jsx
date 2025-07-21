@@ -6,11 +6,11 @@ const Protfolio = () => {
     <section id='protfolio'>
       <div>
         <h2 className='text-4xl font-extrabold font-serif border-b-2 pb-1 inline'>My Protfolio</h2>
-        
-          <Protfolio1 />
 
-          </div>
-       
+        <Protfolio1 />
+
+      </div>
+
     </section>
   )
 }

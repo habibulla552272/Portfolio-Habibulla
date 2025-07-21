@@ -2,6 +2,7 @@
 import About from "@/Component/About/About";
 import Banner from "@/Component/Banner/Banner";
 import Contact from "@/Component/contact/Contact";
+import Footer from "@/Component/Footer/Footer";
 import Navebar from "@/Component/Navebar/Navebar";
 import Protfolio from "@/Component/protfolio/Protfolio";
 import Services from "@/Component/services/Services";
@@ -23,6 +24,7 @@ export default function Home() {
           <Protfolio />
           <Services />
           <Contact />
+          <Footer />
         </div>
 
       </section>

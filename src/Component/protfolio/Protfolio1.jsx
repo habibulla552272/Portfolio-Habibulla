@@ -6,6 +6,7 @@ import agency1 from '@/assets/agency1.jpeg'
 import services from '@/assets/services.jpeg'
 import exclusive from '@/assets/Exclusive.jpeg'
 import learning from '@/assets/learning.jpeg'
+import { FaCartFlatbed } from "react-icons/fa6";
 
 import Image from 'next/image'
 
@@ -49,7 +50,7 @@ const Protfolio1 = () => {
             img: exclusive
         }
     ]
-   
+
 
     return (
         <div className='flex flex-wrap gap-8 my-8'>
@@ -66,8 +67,9 @@ const Protfolio1 = () => {
                     )
                 })
             }
-
+         
         </div>
+        
     )
 }
 

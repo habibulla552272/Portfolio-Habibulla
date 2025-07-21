@@ -1,11 +1,18 @@
 import React from 'react'
+import Services1 from './Services1'
 
 const Services = () => {
   return (
-    <div id='services'>
-      <h2 className='bg-orange-500'>service</h2>
-      <p>loremFootball is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football generally means the form of football that is the most popular where the word is used. Sports commonly called football include association football (known as soccer in Australia, Canada, South Africa, the United States, and sometimes in Ireland and New Zealand); Australian rules football; Gaelic football; gridiron football (specifically American football, arena football, or Canadian football); International rules football; rugby league football; and rugby union football.[1] These various forms of football share, to varying degrees, common origins and are known as "football codes".</p>
-    </div>
+    <section id='services' className='bg-black text-white py-10'>
+      <div>
+        <h2 className='text-4xl font-extrabold font-serif border-b-2 pb-1 inline mx-8'>
+          What I Provide</h2>
+
+
+        <Services1 />
+      </div>
+
+    </section>
   )
 }
 
