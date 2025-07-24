@@ -1,9 +1,16 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 
 const Contact2 = () => {
+    const [sumbit,setSubmit]=useState(true)
+    const fromHandel=()=>{
+        setSubmit(!sumbit)
+        
+    }
     return (
         <div>
-            <form action="">
+            {
+                sumbit ? <form >
                 <div className='flex flex-wrap gap-4'>
 
                     <div className='flex flex-col gap-2 w-full md:w-[48%]'>
@@ -27,9 +34,14 @@ const Contact2 = () => {
                 </div>
                 <div className='flex justify-center'>
 
-                <button className='bg-sky-500 text-white rounded-3xl px-6 py-2 mt-8' type='submit'>Send Message</button>
+                <button onClick={fromHandel} className='bg-sky-500 text-white rounded-3xl px-6 py-2 mt-8' type='submit'>Send Message</button>
                 </div>
-            </form>
+            </form> : 
+            <div className=" ">
+                <h2 className='text-2xl  font-semibold font-sans text-center translate-y-[50%] md:translate-y-[160%]'>Thank you so much for your message. I’ll check it.</h2>
+            </div>
+            }
+            
         </div>
     )
 }

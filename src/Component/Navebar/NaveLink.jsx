@@ -15,6 +15,7 @@ export const BottomtoTop = () => {
     
     return isvisible;
   })
+ return isvisible
 }
 
 

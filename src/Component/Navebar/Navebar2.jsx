@@ -17,7 +17,7 @@ import Link from 'next/link';
 const Navebar2 = () => {
     const [activeLink,setActiveLink]=useState('home')
     const handelSetActiveLink=(link)=>{
-        console.log(link);
+        
         setActiveLink(link)
         
     }
@@ -37,16 +37,19 @@ const Navebar2 = () => {
                             <div className='flex gap-3'>
                                 <ul className='flex gap-3'>
                                     <li className='px-2 py-2 text-2xl bg-gray-700 rounded-4xl hover:bg-cyan-400'>
-                                        <a href="">
+                                        <a href="https://www.facebook.com/mdhabibulla.habibulla.923" target='_blank'>
                                             <FaFacebook />
 
                                         </a>
                                     </li>
                                     <li className='px-2 py-2 text-2xl bg-gray-700 rounded-4xl hover:bg-cyan-400'>
-                                        <a href=""><FaLinkedin /></a>
+                                        <a href="https://www.linkedin.com/in/md-habibulla55/" target='_blank'><FaLinkedin /></a>
                                     </li>
                                     <li className='px-2 py-2 text-2xl bg-gray-700 rounded-4xl hover:bg-cyan-400'>
+                                        <a href="https://github.com/habibulla552272" target='_blank'>
+                                        
                                         <FaGithub />
+                                        </a>
 
                                     </li>
                                     <li></li>
