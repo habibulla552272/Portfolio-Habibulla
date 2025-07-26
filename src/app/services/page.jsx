@@ -1,5 +1,5 @@
 import Footer from '@/Component/Footer/Footer'
-import Navebar from '@/Component/Navebar/Navebar'
+import Navebar from '@/Component/Navebar/Navbar'
 import Services from '@/Component/services/Services'
 import React from 'react'
 

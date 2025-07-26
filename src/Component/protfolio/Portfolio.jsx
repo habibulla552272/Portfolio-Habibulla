@@ -1,5 +1,5 @@
 import React from 'react'
-import Protfolio1 from './Protfolio1'
+import Protfolio1 from './Portfolio1'
 
 const Protfolio = () => {
   return (

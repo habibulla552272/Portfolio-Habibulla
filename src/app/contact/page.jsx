@@ -1,6 +1,6 @@
 import Contact from '@/Component/contact/Contact'
 import Footer from '@/Component/Footer/Footer'
-import Navebar from '@/Component/Navebar/Navebar'
+import Navebar from '@/Component/Navebar/Navbar'
 import React from 'react'
 
 const page = () => {
@@ -14,13 +14,13 @@ const page = () => {
 
                 </div>
                 <div className="w-full">
-                  
+
                     <Contact />
                     <Footer />
                 </div>
 
             </section>
-          
+
         </>
     )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const Skill = () => {
   return (
   
-        <div className='py-8 bg-[#e4f0f7]'>
+        <div className='py-8 bg-[#e4f0f7] text-black'>
           <h2 className='text-2xl font-extrabold font-serif border-b-1 pb-1 px-2 inline uppercase'>My Skills</h2>
           <div className='flex flex-wrap w-[90%] mx-auto md:w-[90%] gap-10 mt-5'>
             <div className='w-[80%] md:w-[45%]'>

@@ -24,7 +24,7 @@ const Navebar2 = () => {
 
     
   return (
-   <section className='bg-black text-white fixed top-0'>
+   <section className='bg-black text-white fixed top-0 h-[100%]'>
      <div className=''>
                 <div className=' flex justify-between'>
 
@@ -60,30 +60,40 @@ const Navebar2 = () => {
                         </div>
                         <div className='py-5'>
                             <ul className='flex flex-col gap-8'>
-                                <li className={`flex gap-3 items-center text-neutral-400 hover:text-white ${activeLink == 'home' ? "text-white" : 'text-neutral-400'}`}>
+                                <li className={` text-neutral-400 hover:text-white ${activeLink == 'home' ? "text-white" : 'text-neutral-400'}`}>
+
+                                    <a className='flex gap-3 items-center' onClick={()=> handelSetActiveLink('home')} href="/">
                                     <IoMdHome className='text-2xl' />
-
-                                    <a onClick={()=> handelSetActiveLink('home')} href="/">Home</a>
+                                        Home
+                                    </a>
                                 </li>
-                                <li className={`flex gap-3 items-center text-neutral-400 hover:text-white ${activeLink == 'about' ? "text-white" : 'text-neutral-400'}`}>
+                                <li className={` text-neutral-400 hover:text-white ${activeLink == 'about' ? "text-white" : 'text-neutral-400'}`}>
+
+                                    <a className='flex gap-3 items-center' onClick={()=> handelSetActiveLink('about')} href="#about">
                                    <FaUser className='text-2xl' />
-
-                                    <a onClick={()=> handelSetActiveLink('about')} href="#about">About</a>
+                                    About
+                                   </a>
                                 </li>
-                                <li className={`flex gap-3 items-center text-neutral-400 hover:text-white ${activeLink == 'protfolio' ? "text-white" : 'text-neutral-400'}`}>
+                                <li className={` text-neutral-400 hover:text-white ${activeLink == 'protfolio' ? "text-white" : 'text-neutral-400'}`}>
+
+                                    <a className='flex gap-3 items-center' onClick={()=>handelSetActiveLink('protfolio')} href='#protfolio'>
                                     <FaImages className='text-2xl' />
-
-                                    <a onClick={()=>handelSetActiveLink('protfolio')} href='#protfolio'>Protfolio</a>
+                                        Protfolio
+                                    </a>
                                 </li>
-                                <li className={`flex gap-3 items-center text-neutral-400 hover:text-white ${activeLink == 'services' ? "text-white" : 'text-neutral-400'}`}>
+                                <li className={` text-neutral-400 hover:text-white ${activeLink == 'services' ? "text-white" : 'text-neutral-400'}`}>
+
+                                    <a className='flex gap-3 items-center' onClick={()=> handelSetActiveLink('services')} href="#services">
                                     <FaServer className='text-2xl' />
-
-                                    <a onClick={()=> handelSetActiveLink('services')} href="#services">Services</a>
+                                        Services
+                                    </a>
                                 </li>
-                                <li className={`flex gap-3 items-center text-neutral-400 hover:text-white ${activeLink == 'contact' ? "text-white" : 'text-neutral-400'}`}>
-                                    <IoMdMail className='text-2xl' />
+                                <li className={` text-neutral-400 hover:text-white ${activeLink == 'contact' ? "text-white" : 'text-neutral-400'}`}>
 
-                                    <a onClick={()=> handelSetActiveLink('contact')} href='#contact'>contact</a>
+                                    <a className='flex gap-3 items-center' onClick={()=> handelSetActiveLink('contact')} href='#contact'>
+                                    <IoMdMail className='text-2xl' />
+                                        contact
+                                    </a>
                                 </li>
                             </ul>
                         </div>

@@ -3,8 +3,8 @@ import About from "@/Component/About/About";
 import Banner from "@/Component/Banner/Banner";
 import Contact from "@/Component/contact/Contact";
 import Footer from "@/Component/Footer/Footer";
-import Navebar from "@/Component/Navebar/Navebar";
-import Protfolio from "@/Component/protfolio/Protfolio";
+import Navebar from "@/Component/Navebar/Navbar";
+import Protfolio from "@/Component/protfolio/Portfolio";
 import Services from "@/Component/services/Services";
 
 

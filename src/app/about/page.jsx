@@ -1,6 +1,6 @@
 import About from '@/Component/About/About'
 import Footer from '@/Component/Footer/Footer'
-import Navebar from '@/Component/Navebar/Navebar'
+import Navebar from '@/Component/Navebar/Navbar'
 import React from 'react'
 
 const page = () => {

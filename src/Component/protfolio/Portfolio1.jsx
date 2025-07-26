@@ -53,12 +53,12 @@ const Protfolio1 = () => {
 
 
     return (
-        <div className='flex flex-wrap gap-8 my-8'>
+        <div className='flex flex-wrap gap-5 my-8 px-5'>
             {
                 prot.map((item,id) => {
                     return (
-                        <div key={id} className='w-10/12 md:w-[31%] mx-auto overflow-hidden relative group shadow-2xl'>
-                            <Image className=' h-[200px] rounded-xl object-cover'  src={item.img} alt={item.name} />
+                        <div key={id} className='w-10/12 md:w-[31%] rounded-xl font- mx-auto overflow-hidden relative group  hover:scale-[103%] duration-500 '>
+                            <Image className='h-[200px] md:h-[300px] rounded-xl object-cover'  src={item.img} alt={item.name} />
                             <a className=' absolute bg-amber-500 -top-96 flex justify-center items-center w-full h-full text-white group-hover:top-0 rounded-xl duration-700 ease-in-out' href={item.link} target='_blank' rel='nooperner noreferrer'>
                                 <span className='text-xl font-bold font-serif'>{item.name}</span>
                             </a>

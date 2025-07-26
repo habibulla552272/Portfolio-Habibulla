@@ -15,12 +15,12 @@ const Contact2 = () => {
 
                     <div className='flex flex-col gap-2 w-full md:w-[48%]'>
                         <label htmlFor="name">Your Name</label>
-                        <input className='text-sm outline-none border-1 px-5 py-2' type="text" />
+                        <input className='text-sm outline-none border-1 px-5 py-2' type="text" required />
                     </div>
 
                     <div className='flex flex-col gap-2 w-full md:w-[48%]'>
                         <label htmlFor="name">Your Email</label>
-                        <input className='text-sm outline-none border-1 px-5 py-2' type="text" />
+                        <input className='text-sm outline-none border-1 px-5 py-2' type="text" required />
                     </div>
                 </div>
                 <div className='flex flex-col gap-2 pt-5'>
@@ -28,13 +28,13 @@ const Contact2 = () => {
                     <input className='text-sm outline-none border-1 px-5 py-2' type="text" />
                 </div>
                 <div className='mt-5 border-1'>
-                    <textarea name="" id="" placeholder='Write your Message' className='w-full opacity-70'>
+                    <textarea name="" id="" required placeholder='Write your Message' className='w-full opacity-70 outline-none pl-3 pt-1'>
                        
                     </textarea>
                 </div>
                 <div className='flex justify-center'>
 
-                <button onClick={fromHandel} className='bg-sky-500 text-white rounded-3xl px-6 py-2 mt-8' type='submit'>Send Message</button>
+                <button  className='bg-sky-500 text-white rounded-3xl px-6 py-2 mt-8' type='submit'>Send Message</button>
                 </div>
             </form> : 
             <div className=" ">
