@@ -4,8 +4,9 @@ import Navebar from "@/Component/Navebar/Navbar";
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-ge',
+  weight: ['100','200','300','400', '500', '600', '700'],
+  variable: '--font-poppins',
+  display:'swap'
 });
 
 export const metadata = {

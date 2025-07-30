@@ -28,21 +28,21 @@ const About = () => {
           <h2 className='text-4xl font-extrabold font-serif border-b-2 pb-3 pl-2 w-fit'>About Me</h2>
           <div className='lg:flex gap-5'>
             <div className='pt-8 lg:w-[55%]'>
-              <h2 className='w-10/12 mx-auto font-extrabold text-2xl'>PERSONAL INFORMATION</h2>
-              <div className='flex gap-5 justify-between w-10/12 mx-auto font-sans pt-5'>
+              <h2 className='w-[95%] mx-auto font-extrabold text-2xl '>PERSONAL INFORMATION</h2>
+              <div className='flex gap-5 justify-between w-[95%] mx-auto font-sans pt-5'>
                 <div>
                   <ul className='flex flex-col gap-5'>
-                    <li className='text-[15px] md:text-[18px] flex gap-2'>
+                    <li className='text-[15px] md:text-[18px] flex items-center gap-2'>
                       <p className=' opacity-100 font-extrabold '>Name:</p>
-                      <span className='opacity-80 font-semibold'>Md.Habibulla</span>
+                      <span className='opacity-80 font-semibold text-sm pt-1'>Md.Habibulla</span>
                     </li>
-                    <li className='text-[15px] md:text-[18px] flex gap-2'>
-                      <p className='opacity-100 font-extrabold ' >Age:</p>
-                      <span className='opacity-80 font-semibold'>21 Years</span>
+                    <li className='text-[15px] md:text-[18px] flex items-center gap-2'>
+                      <p className='opacity-100 font-extrabold  ' >Age:</p>
+                      <span className='opacity-80 font-semibold text-sm pt-1'>21 Years</span>
                     </li>
-                    <li className='text-[15px] md:text-[18px] flex flex-wrap gap-2'>
-                      <p className='opacity-100 font-extrabold ' > Nationallity:</p>
-                      <span className='opacity-80 font-semibold'>Bangladeshi</span>
+                    <li className='text-[15px] md:text-[18px] flex items-center flex-wrap  gap-2'>
+                      <p className='opacity-100 font-extrabold' > Nationallity:</p>
+                      <span className='opacity-80 font-semibold text-sm '>Bangladeshi</span>
                     </li>
 
                   </ul>
@@ -50,21 +50,21 @@ const About = () => {
                 <div>
 
                   <ul className='flex flex-col gap-5'>
-                    <li className='text-[15px] md:text-[18px] flex gap-2'>
+                    <li className='text-[15px] md:text-[18px] flex items-center gap-2'>
                       <p className='opacity-100 font-extrabold' >Address:</p>
-                      <span className='opacity-80 font-semibold'>Dhaka</span>
+                      <span className='opacity-80 font-semibold text-sm pt-1'>Dhaka</span>
                     </li>
-                    <li className='text-[15px] md:text-[18px] flex gap-2'>
+                    <li className='text-[15px] md:text-[18px] flex items-center gap-2'>
                       <p className='opacity-100 font-extrabold '>Phone:</p>
-                      <span className='opacity-80 font-semibold'>01330961124</span>
+                      <span className='opacity-80 font-semibold text-sm pt-1'>01330961124</span>
                     </li>
-                    <li className='text-[15px] md:text-[18px] flex flex-wrap gap-2'>
+                    <li className='text-[15px] md:text-[18px] flex items-center flex-wrap gap-2'>
                       <p className='opacity-100 font-extrabold '>Email:</p>
-                      <span className='opacity-80 font-semibold'>mdhabibulla146425@gmail.com</span>
+                      <span className='opacity-80 font-semibold text-sm md:pt-1'>mdhabibulla146425@gmail.com</span>
                     </li>
                     <li className='text-[15px] md:text-[18px] flex gap-2'>
                       <p className='opacity-100 font-extrabold ' >Linkedin:</p>
-                      <span className='opacity-80 font-semibold'>www.linkedin.com/in/md-habibulla55/</span>
+                      <span className='opacity-80 font-semibold text-sm'>www.linkedin.com/in/md-habibulla55/</span>
                     </li>
 
                   </ul>
