@@ -12,7 +12,9 @@ import Services from "@/Component/services/Services";
 export default function Home() {
   return (
     <>
-      <section className="flex">
+      <section className="">
+      <div className="flex gap-0">
+
 
         <div className=" absolute  w-1/2 md:static md:w-1/5">
           <Navebar />
@@ -26,6 +28,8 @@ export default function Home() {
           <Contact />
           <Footer />
         </div>
+
+      </div>
 
       </section>
 

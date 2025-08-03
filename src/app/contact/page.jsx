@@ -7,7 +7,7 @@ const page = () => {
     return (
         <>
 
-            <section className="flex">
+            <section className="flex container ">
 
                 <div className=" absolute  w-1/2 md:static md:w-1/5">
                     <Navebar />
