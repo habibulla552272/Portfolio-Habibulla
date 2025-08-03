@@ -22,10 +22,10 @@ const About = () => {
     }
   ]
   return (
-    <section id='about' className='z-[10]'>
+    <section id='about' className='z-[10] my-[70px]'>
       <div>
         <div className='my-10 py-10'>
-          <h2 className='text-4xl font-extrabold font-serif border-b-2 pb-3 pl-2 w-fit'>About Me</h2>
+          <h2 className='text-4xl font-extrabold font-serif border-b-2 pb-3 pl-2 w-fit cinzel'>About Me</h2>
           <div className='lg:flex gap-5'>
             <div className='pt-8 lg:w-[55%]'>
               <h2 className='w-[95%] mx-auto font-extrabold text-2xl '>PERSONAL INFORMATION</h2>
@@ -71,12 +71,17 @@ const About = () => {
 
                 </div>
               </div>
+
+              {/* added cv  */}
+              <div className=' flex justify-center my-8'>
+                <a className='py-2  rounded-2xl px-5 text-sx md:text-xl bg-cyan-300 text-white hover:scale-[106%] duration-500 ease-in-out cinzel ' href="/cv.pdf" download>Download CV</a>
+              </div>
             </div>
             <div className='flex flex-wrap justify-between w-[90%] lg:w-[45%] mx-auto gap-2 px-5 mt-5'>
               {pInfo.map((item, id) => {
                 return (
                   <div key={id} className='px-5 py-3 border-2 border-orange-400 rounded-xl w-[45%] hover:scale-[103%] duration-500'>
-                    <h2 className='font-bold lg:text-[50px] text-[40px] md:pb-6 text-[#ffb400] '>{item.num}</h2>
+                    <h2 className='font-bold lg:text-[50px] text-[40px] md:pb-6 text-[#ffb400] cinzel'>{item.num}</h2>
                     <h2 className='font-normal text-[16px] md:pl-9  uppercase relative after:absolute after:top-1/2  after:translate-y-1/2 after:left-0 after:content-[""] after:h-0.5 after:w-8 after:hidden after:lg:block after:bg-orange-400 after:opacity-65'>{item.name}</h2>
                   </div>
                 )
